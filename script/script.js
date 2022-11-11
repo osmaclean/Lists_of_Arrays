@@ -75,13 +75,6 @@ function doubleLists(numeros) {
     } else {
         console.log(`A soma não é um múltiplo de 5`)
     }
-    // let maiorArr = numeros.length;
-    // let maiorArr2 = outrosNumeros.length;
-    // if (maiorArr > maiorArr2) {
-    //     console.log(`A maior lista é a lista cujo último número é: ${numeros[6]}`)
-    // } else if (maiorArr2 > maiorArr) {
-    //     console.log(`A maior lista é a lista cujo último número é: ${outrosNumeros[6]}`)
-    // }
 return numeros
 }
 console.log(doubleLists(numeros));
