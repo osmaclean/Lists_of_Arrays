@@ -2,8 +2,8 @@
 // Primeira Tarefa
 
 function funcao() {
-    let nomes = ["Lua"];
-    return nomes;
+    let nomes1 = ["Lua"];
+    return nomes1;
 }
 console.log(funcao());
 
@@ -42,25 +42,36 @@ console.log(numberInt());
 
 /////////////////////////////////////////////////
 
-// 
+// Quarta Tarefa
 
+let nomes = ["Pedro", "Rafael", "José"];
 
+function listas(nomes) {
+    let nomeOne = nomes[0].length;
+    let nomeTwo = nomes[1].length;
+    let nomeThree = nomes[2].length;
+    for (let i = 0; i < nomes.length; i++) {
+        if (nomeOne > nomeTwo) {
+            console.log(`O nome Pedro é o maior da lista`);
+        } else if (nomeOne < nomeThree) {
+            console.log(`O nome Pedro é o maior da lista`)
+        } else if (nomeTwo > nomeThree) {
+            console.log(`O nome Rafael é o maior da lista`)
+        } else if (nomeTwo > nomeOne) {
+            console.log(`O nome Rafael é o maior da lista`)
+        } else if (nomeThree > nomeOne) {
+            console.log(`O nome José o maior da lista`)
+        } else if (nomeThree > nomeTwo) {
+            console.log(`O nome José o maior da lista`)
+        }
+    }
+    return nomes;
+}
+console.log(listas(nomes));
 
+//////////////////////////////////////////////////////
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
 
 
 
