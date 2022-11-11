@@ -25,12 +25,24 @@ console.log(numero());
 
 /////////////////////////////////////////
 
+// Terceira Tarefa
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+function numberInt() {
+    let inteiro = 0
+    if (numbers[inteiro] % 2 == 0) {
+        console.log(`O valor encontrado nessa posição é par!`)
+    } else {
+        console.log(`O valor encontrado nessa posição é ímpar!`)
+    }
+    return numbers[inteiro];
+}
+console.log(numberInt());
+
+/////////////////////////////////////////////////
+
 // 
-
-
-
-
-
 
 
 
