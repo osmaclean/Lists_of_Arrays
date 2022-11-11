@@ -50,32 +50,45 @@ function listas(nomes) {
     let nomeOne = nomes[0].length;
     let nomeTwo = nomes[1].length;
     let nomeThree = nomes[2].length;
-    for (let i = 0; i < nomes.length; i++) {
         if (nomeOne > nomeTwo) {
             console.log(`O nome Pedro é o maior da lista`);
-        } else if (nomeOne < nomeThree) {
+        } else if (nomeThree > nomeOne) {
             console.log(`O nome Pedro é o maior da lista`)
         } else if (nomeTwo > nomeThree) {
             console.log(`O nome Rafael é o maior da lista`)
-        } else if (nomeTwo > nomeOne) {
-            console.log(`O nome Rafael é o maior da lista`)
-        } else if (nomeThree > nomeOne) {
-            console.log(`O nome José o maior da lista`)
-        } else if (nomeThree > nomeTwo) {
-            console.log(`O nome José o maior da lista`)
         }
-    }
     return nomes;
 }
 console.log(listas(nomes));
 
 //////////////////////////////////////////////////////
 
-//
+// Quinta Tarefa 
+
+let numeros = [1,4,6,9,11,8]
 
 
+function doubleLists(numeros) {
+    let soma = numeros[0] + numeros[1];
+    if (numeros[soma] % 2 == 0){
+        console.log(`A soma é um múltiplo de 5`)
+    } else {
+        console.log(`A soma não é um múltiplo de 5`)
+    }
+    // let maiorArr = numeros.length;
+    // let maiorArr2 = outrosNumeros.length;
+    // if (maiorArr > maiorArr2) {
+    //     console.log(`A maior lista é a lista cujo último número é: ${numeros[6]}`)
+    // } else if (maiorArr2 > maiorArr) {
+    //     console.log(`A maior lista é a lista cujo último número é: ${outrosNumeros[6]}`)
+    // }
+return numeros
+}
+console.log(doubleLists(numeros));
 
-
+alert(`Page made by: Lucas Maclean.`);
+alert(`Página de aprendizado e execução de Arrays.`);
+alert(`Tudo dentro do "Console".`);
 
 
 
